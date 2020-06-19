@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "12.x",
+    "@vtex/api": "6.31.1",
+    "typescript": "3.8.3"
+  }
+}

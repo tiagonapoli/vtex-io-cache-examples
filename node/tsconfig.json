@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": false,
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "skipLibCheck": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "watch": false
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": ["global.ts", "./**/*"],
+  "exclude": ["node_modules"]
+}
