@@ -1,0 +1,34 @@
+{
+  "memory": 256,
+  "ttl": 10,
+  "timeout": 10,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "routes": {
+    "dataProvider": {
+      "path": "/_v/data",
+      "public": false,
+      "smartcache": false
+    },
+    "populateDiskCache": {
+      "path": "/_v/populate-cache/disk",
+      "public": false,
+      "smartcache": false
+    },
+    "testDiskCache": {
+      "path": "/_v/test-cache/disk",
+      "public": false,
+      "smartcache": false
+    },
+    "populateMemoryCache": {
+      "path": "/_v/populate-cache/memory",
+      "public": false,
+      "smartcache": false
+    },
+    "testMemoryCache": {
+      "path": "/_v/test-cache/memory",
+      "public": false,
+      "smartcache": false
+    }
+  }
+}
