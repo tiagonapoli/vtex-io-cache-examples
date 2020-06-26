@@ -5,10 +5,10 @@ import { randomIntFromInterval } from '../utils'
  * They have to sum up 1.0
  */
 const StatusCodeWeights = {
-  200: 0.8,
-  404: 0.18,
-  400: 0.01,
-  500: 0.01,
+  200: 1,
+  404: 0.0,
+  400: 0.00,
+  500: 0.00,
 }
 
 const StatusCodeWeightsEntries = Object.entries(StatusCodeWeights)

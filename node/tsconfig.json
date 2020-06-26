@@ -17,7 +17,8 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
-    "watch": false
+    "watch": false,
+    "esModuleInterop": true
   },
   "typeAcquisition": {
     "enable": false

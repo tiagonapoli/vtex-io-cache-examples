@@ -1,9 +1,11 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "p-map": "^4.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.25",
     "@types/node": "12.x",
-    "@vtex/api": "6.31.1",
+    "@vtex/api": "6.33.0",
     "typescript": "3.8.3"
   }
 }

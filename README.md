@@ -37,6 +37,11 @@ The routes to test the cache are:
 /_v/test-cache/memory
 ```
 
+They accept options as query parameters:
+```
+concurrency: number [default infinite]
+The number of concurrent requests that will be made
+```
 
 
 
